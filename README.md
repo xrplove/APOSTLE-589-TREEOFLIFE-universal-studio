@@ -24,9 +24,13 @@ chmod +x universal-studio
 ./universal-studio ardour
 ```
 
+Note: The `0.2.0` script above is downloaded from Codeberg, which is the main
+repository where releases are published. The GitHub repository is a mirror
+and does not host releases.
+
 After a moment, Ardour should launch. Replace `ardour` with another application
 listed in `flake.nix` to launch a different one instead. Please note that
-everything will need to be download the first time you use it, so the first run
+everything will need to be downloaded the first time you use it, so the first run
 will take longer than usual.
 
 ## Links
@@ -69,7 +73,7 @@ of useful information.
 
 ## Contributing
 
-Feel free to do any of the things in the [TODO](#TODO) section yourself and
+Feel free to do any of the things in the [TODO](#todo) section yourself and
 submit a pull request! If you want a package, first search for it on
 [search.nixos.org](https://search.nixos.org/packages?channel=unstable). If you
 don't find it, please make a packaging request at the [nix package
